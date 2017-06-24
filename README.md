@@ -33,3 +33,5 @@ Upload the Remove Admin Toolbar plugin to your blog, Activate it, then enter und
 
 = 0.1.0 =
 *Release Date - 23rd June, 2017*
+= 0.1.1 =
+*Bug fix*
