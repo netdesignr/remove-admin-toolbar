@@ -3,7 +3,7 @@
  * Plugin Name: Remove Admin Toolbar
  * Plugin URI: netdesignr.com
  * Description: Remove admin toolbar completely or partially within seconds.
- * Version: 0.1.1
+ * Version: 0.1.2
  * Author: Mihai Diaconita
  * License: GPL2 or later
  */
