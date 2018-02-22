@@ -1,8 +1,8 @@
 === Remove Admin Toolbar ===
 Tags: admin toolbar, remove toolbar, admin, toolbar, hide toolbar, hide admin toolbar
 Requires at least: 4.0
-Tested up to: 4.8
-Stable tag: 0.1.1
+Tested up to: 4.9.4
+Stable tag: 0.1.2
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RKJXMVS29VA3L
 License: GPLv2 or later
 License url: http://www.gnu.org/licenses/gpl.html
@@ -36,3 +36,5 @@ Upload the Remove Admin Toolbar plugin to your blog, Activate it, then enter und
 *Release Date - 23rd June, 2017*
 = 0.1.1 =
 *Bug fix*
+= 0.1.1 =
+*Add support to the latest WP version*
