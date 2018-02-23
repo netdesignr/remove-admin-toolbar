@@ -1,0 +1,73 @@
+/*
+ * Plugin stylesheet
+ * @user: netdesignr
+ */
+
+.rat-toolbar form {
+    float: left;
+}
+
+.rat-toolbar h2 {
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+.rat-toolbar p {
+    line-height: 2.2em;
+}
+
+.rat-toolbar .submit {
+    display: inline-block;
+    margin-top: 0;
+}
+
+.rat-toolbar input {
+    padding: 0;
+
+}
+
+.rat-toolbar label {
+    float: left;
+}
+
+.rat-toolbar input[type='radio'] {
+    float: right;
+    margin-left: 20px;
+    margin-top: 6px;
+}
+
+.rat-toolbar fieldset {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0 10px 0;
+}
+
+.rat-toolbar label {
+    display: block;
+    text-align: center;
+}
+
+.rat-toolbar #submit {
+    margin-right: 10px;
+
+}
+
+.rat-toolbar img {
+
+    width: 200px;
+    margin-left: -12px;
+    display: block;
+    float: right;
+}
+
+.wallpaper img {
+    width: 100%;
+}
+
+@media (max-width: 700px) {
+
+    .rat-toolbar img {
+        margin-bottom: 20px;
+        float: left;
+    }
+}
