@@ -31,9 +31,9 @@ Upload the Remove Admin Toolbar plugin to your blog, Activate it, then enter und
 
 ## Changelog ##
 
-= 0.1.0 =
-*Release Date - 23rd June, 2017*
-= 0.1.1 =
-*Bug fix*
 = 0.1.2 =
 *Add support to the latest WP version*
+= 0.1.1 =
+*Bug fix*
+= 0.1.0 =
+*Release Date - 23rd June, 2017*
