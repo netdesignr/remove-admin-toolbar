@@ -22,7 +22,7 @@ deploy:
   - provider: wordpress-plugin
     edge:
       source: netdesignr/remove-admin-toolbar
-      branch: feature/add_support_wp_5_0
+      branch: master
     on:
       php: 7.1
       tags: true
