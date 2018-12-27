@@ -1,33 +1,28 @@
-# .travis.yml
- 
 language: php
- 
-sudo: false
- 
 php:
-  - 7.0
-  - 7.1
- 
-script:
-  # Run your tests here.
-  - echo 'Tested'
+- 7.0
 
-before_deploy:
-  - mkdir build
-  - cp LICENSE build
-  - cp README.txt build
-  - cp remove-admin-toolbar.php build
- 
+script:
+# Override default Travis script action [phpunit]
+- php -l *.php
+
+branches:
+  only:
+  # Enable Travis hook on tags (there is regular expression for semver tag)*
+  - "/\\d\\.\\d\\.\\d/"
+
+# Enable Travis deployment
 deploy:
-  - provider: wordpress-plugin
-    edge:
-      source: netdesignr/remove-admin-toolbar
-      branch: master
-    on:
-      php: 7.1
-      tags: true
-      repo: netdesignr/remove-admin-toolbar
-    slug: remove-admin-toolbar
-    username: $SVN_USERNAME
-    password: $SVN_PASSWORD
-    build_dir: build 
+  # Use script as a deployment tool
+  provider: script
+  script: deploy/deploy.sh
+  # Restrict deployment only for tags
+  on:
+    tags: true
+
+# Deployment script requires few enviromnet variables
+env:
+  global:
+  - SVN_REPOSITORY=SVN_REPOSITORY
+  - secure: SVN_USERNAME
+  - secure: SVN_PASSWORD
