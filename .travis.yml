@@ -1,28 +1,33 @@
+# .travis.yml
+ 
 language: php
+ 
+sudo: false
+ 
 php:
-- 7.0
-
+  - 7.0
+  - 7.1
+ 
 script:
-# Override default Travis script action [phpunit]
-- php -l *.php
+  # Run your tests here.
+  - echo 'Tested'
 
-branches:
-  only:
-  # Enable Travis hook on tags (there is regular expression for semver tag)*
-  - "/\\d\\.\\d\\.\\d/"
-
-# Enable Travis deployment
+before_deploy:
+  - mkdir build
+  - cp LICENSE build
+  - cp README.txt build
+  - cp remove-medium-cross-links.php build
+ 
 deploy:
-  # Use script as a deployment tool
-  provider: script
-  script: deploy/deploy.sh
-  # Restrict deployment only for tags
-  on:
-    tags: true
-
-# Deployment script requires few enviromnet variables
-env:  
-  global:
-  - SVN_REPOSITORY=$SVN_REPOSITORY
-  - secure: $SVN_USERNAME
-  - secure: $SVN_PASSWORD
+  - provider: wordpress-plugin
+    edge:
+      source: netdesignr/remove-admin-toolbar
+      branch: feature/add_support_wp_5_0
+    on:
+      php: 7.1
+      tags: true
+      repo: netdesignr/remove-admin-toolbar
+    slug: remove-admin-toolbar
+    username: $SVN_USERNAME
+    password: $SVN_PASSWORD
+    build_dir: build 

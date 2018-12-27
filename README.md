@@ -2,8 +2,8 @@
 
 Tags: admin toolbar, remove toolbar, admin, toolbar, hide toolbar, hide admin toolbar
 Requires at least: 4.0
-Tested up to: 4.9.4
-Stable tag: 0.1.3
+Tested up to: 5.0.2
+Stable tag: 0.1.4
 License: GPLv2 or later
 
 Remove Admin Toolbar helps you hide the admin toolbar completely or partially within seconds.
@@ -11,7 +11,7 @@ Remove Admin Toolbar helps you hide the admin toolbar completely or partially wi
 
 ## Description ##
 
-This super light plugin helps Wordpress users hide the admin toolbar completely or partially within seconds. 
+This super light weight plugin helps Wordpress users hide the admin toolbar completely or partially within seconds. 
 
 The plugin comes with three options:
 1. Hide from all
@@ -31,6 +31,8 @@ Upload the Remove Admin Toolbar plugin to your blog, Activate it, then enter und
 
 ## Changelog ##
 
+= 0.1.4 =
+*Add WP 5.0+ support*
 = 0.1.3 =
 *Add English language support*
 = 0.1.2 =
