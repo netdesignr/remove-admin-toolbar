@@ -30,4 +30,4 @@ env:
   notifications:
   slack:
     rooms:
-      - net-designr:C2GnodnLsxhwwGvr0xAcajzc#remove-admin-toolbar
+      - net-designr:CF2BLE1EX#remove-admin-toolbar
