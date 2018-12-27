@@ -1,33 +1,13 @@
+# .travis.yml
+ 
 language: php
+ 
+sudo: false
+ 
 php:
-- 7.0
-
+  - 7.0
+  - 7.1
+ 
 script:
-# Override default Travis script action [phpunit]
-- php -l *.php
-
-branches:
-  only:
-  # Enable Travis hook on tags (there is regular expression for semver tag)*
-  - "/\\d\\.\\d\\.\\d/"
-
-# Enable Travis deployment
-deploy:
-  # Use script as a deployment tool
-  provider: script
-  script: deploy/deploy.sh
-  # Restrict deployment only for tags
-  on:
-    tags: true
-
-# Deployment script requires few enviromnet variables
-env:  
-  global:
-  - SVN_REPOSITORY=$SVN_REPOSITORY
-  - secure: $SVN_USERNAME
-  - secure: $SVN_PASSWORD
-
-  notifications:
-  slack:
-    rooms:
-      - net-designr:CF2BLE1EX#remove-admin-toolbar
+  # Run your tests here.
+  - echo 'Tested'
