@@ -26,3 +26,8 @@ env:
   - SVN_REPOSITORY=$SVN_REPOSITORY
   - secure: $SVN_USERNAME
   - secure: $SVN_PASSWORD
+
+  notifications:
+  slack:
+    rooms:
+      - NetDesignr:C2GnodnLsxhwwGvr0xAcajzc#remove-admin-toolbar
