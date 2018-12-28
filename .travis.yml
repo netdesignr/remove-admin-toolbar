@@ -23,6 +23,6 @@ deploy:
 # Deployment script requires few enviromnet variables
 env:
   global:
-  - SVN_REPOSITORY=SVN_REPOSITORY
-  - secure: SVN_USERNAME
-  - secure: SVN_PASSWORD
+  - SVN_REPOSITORY=$SVN_REPOSITORY
+  - secure: $SVN_USERNAME
+  - secure: $SVN_PASSWORD
