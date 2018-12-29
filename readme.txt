@@ -33,7 +33,7 @@ Upload the Remove Admin Toolbar plugin to your blog, Activate it, then enter und
 == Changelog ==
 
 = 0.1.4 =
-*Add support to WP 5.0+*
+*Add WP 5.0+ support*
 = 0.1.3 =
 *Add English language support*
 = 0.1.2 =
