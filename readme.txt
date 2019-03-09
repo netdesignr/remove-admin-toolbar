@@ -2,7 +2,7 @@
 Tags: admin toolbar, remove toolbar, admin, toolbar, hide toolbar, hide admin toolbar
 Requires at least: 4.0
 Tested up to: 5.1
-Stable tag: 0.1.8
+Stable tag: 0.1.9
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RKJXMVS29VA3L
 License: GPLv2 or later
 License url: http://www.gnu.org/licenses/gpl.html
@@ -32,6 +32,8 @@ Upload the Remove Admin Toolbar plugin to your blog, Activate it, then enter und
 
 == Changelog ==
 
+= 0.1.9 =
+*Update cover image inside settings*
 = 0.1.8 =
 *New branding and plugin author*
 = 0.1.7 =
