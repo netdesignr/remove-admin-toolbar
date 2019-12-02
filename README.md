@@ -1,4 +1,4 @@
-# Remove Admin Toolbar #
+# Remove Admin Toolbar
 
 Tags: admin toolbar, remove toolbar, admin, toolbar, hide toolbar, hide admin toolbar
 Requires at least: 4.0
@@ -8,48 +8,49 @@ License: GPLv2 or later
 
 Remove Admin Toolbar helps you hide the admin toolbar completely or partially within seconds.
 
+## Description
 
-## Description ##
-
-This super light weight plugin helps Wordpress users hide the admin toolbar completely or partially within seconds. 
+This super light weight plugin helps Wordpress users hide the admin toolbar completely or partially within seconds.
 
 The plugin comes with three options:
+
 1. Hide from all
 2. Hide from all except Administrators
 3. Hide from Administrators except other users
 
+## Major features in RA Toolbar include:
 
-## Major features in RA Toolbar include: ##
+- Show/Hide admin toolbar
 
-* Show/Hide admin toolbar
-
-## Installation ##
+## Installation
 
 Upload the Remove Admin Toolbar plugin to your blog, Activate it, then enter under Settings > RA Toolbar > Make your selection.
 
 1, 2, 3: You're done!
 
-## Changelog ##
+## Changelog
 
+= 0.2.1 =
+_Wordpress 5.3 support_
 = 0.2.0 =
-*Wordpress 5.1.1 support*
+_Wordpress 5.1.1 support_
 = 0.1.9 =
-*Update cover image inside settings*
+_Update cover image inside settings_
 = 0.1.8 =
-*New branding and plugin author*
+_New branding and plugin author_
 = 0.1.7 =
-*Wordpress 5.1 Betty support*
+_Wordpress 5.1 Betty support_
 = 0.1.6 =
-*Fix display issue on IE*
+_Fix display issue on IE_
 = 0.1.5 =
-*Add WP 5.0.3 support*
+_Add WP 5.0.3 support_
 = 0.1.4 =
-*Add WP 5.0.2 support*
+_Add WP 5.0.2 support_
 = 0.1.3 =
-*Add English language support*
+_Add English language support_
 = 0.1.2 =
-*Add support to the latest WP version*
+_Add support to the latest WP version_
 = 0.1.1 =
-*Bug fix*
+_Bug fix_
 = 0.1.0 =
-*Release Date - 23rd June, 2017*
+_Release Date - 23rd June, 2017_

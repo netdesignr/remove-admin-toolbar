@@ -32,6 +32,10 @@ Upload the Remove Admin Toolbar plugin to your blog, Activate it, then enter und
 
 == Changelog ==
 
+= 0.2.1 =
+*Wordpress 5.3 support*
+= 0.2.0 =
+*Wordpress 5.1.1 support*
 = 0.1.9 =
 *Update cover image inside settings*
 = 0.1.8 =
