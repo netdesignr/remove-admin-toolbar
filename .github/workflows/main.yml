@@ -19,4 +19,3 @@ jobs:
           SLUG: ${{ secrets.WP_SLUG }}
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
-s
