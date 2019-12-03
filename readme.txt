@@ -32,6 +32,8 @@ Upload the Remove Admin Toolbar plugin to your blog, Activate it, then enter und
 
 == Changelog ==
 
+= 0.2.3 =
+*Fix version number*
 = 0.2.2 =
 *Fix version number*
 = 0.2.1 =
