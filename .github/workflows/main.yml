@@ -14,8 +14,9 @@ jobs:
       - name: WordPress Plugin Deploy
         uses: varunsridharan/action-wp-org-deploy@master
         with:
-          WORDPRESS_PASSWORD: ${{ secrets.SVN_PASSWORD }}
-          WORDPRESS_USERNAME: ${{ secrets.SVN_USERNAME }}
+          WORDPRESS_PASSWORD: ${{ secrets.WP_PASSWORD }}
+          WORDPRESS_USERNAME: ${{ secrets.WP_USERNAME }}
           SLUG: ${{ secrets.WP_SLUG }}
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
+s
