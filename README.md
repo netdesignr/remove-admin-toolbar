@@ -3,7 +3,7 @@
 Tags: admin toolbar, remove toolbar, admin, toolbar, hide toolbar, hide admin toolbar
 Requires at least: 4.0
 Tested up to: 5.3
-Stable tag: 0.2.1
+Stable tag: 0.2.3
 License: GPLv2 or later
 
 Remove Admin Toolbar helps you hide the admin toolbar completely or partially within seconds.
