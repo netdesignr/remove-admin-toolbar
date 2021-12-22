@@ -3,7 +3,7 @@ name: New Release
 on:
   push:
     tags:
-      - "*"
+      - '*'
 
 jobs:
   build:
@@ -12,7 +12,7 @@ jobs:
       - name: Checking Out Plugin Data
         uses: actions/checkout@v1
       - name: WordPress Plugin Deploy
-        uses: varunsridharan/action-wp-org-deploy@master
+        uses: varunsridharan/action-wp-org-deploy@main
         with:
           WORDPRESS_PASSWORD: ${{ secrets.WP_PASSWORD }}
           WORDPRESS_USERNAME: ${{ secrets.WP_USERNAME }}
